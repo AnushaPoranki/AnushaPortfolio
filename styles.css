@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+ }
+ .sidebar{
+    background-color: burlywood;
+    width: 15vw;
+    font-family: 'Roboto', sans-serif;
+    height: 150vh;
+}
+
+.sidebar nav{
+    padding: 45px;
+    padding-bottom: 550px;
+}
+.sidebar nav li{
+    list-style: none ;
+    font-size: 18px;
+    padding-right: 20px;
+    padding: 15px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    
+    background-color: bisque;
+    width: 90vw;
+}
+.upp h1{ 
+    align-content: center;
+}
+.container{
+    display: flex;
+
+}
+.InfoContainer{
+    background-color: burlywood ;
+    height: 80vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Hello{
+    font-size: 40px;
+    font-family: 'PT Serif', serif;
+}
+.Name{
+    font-size: 35px;
+
+    font-family: 'Barlow', sans-serif;
+}
+.about{
+    font-size: 30px;
+    margin-top: 15px;
+    font-family: 'Source Serif Pro', serif;
+}
+.moreabout{
+    font-size: 25px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+   
+}
+.buttons{
+    margin-top: 34px;
+
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+
+}
+.devpic img{
+    height: 58vh;
+
+}
+
+.contact {
+    padding: 0 34px;
+    padding-top: 144px;
+    
+
+}
+
+.contact h1{
+    font-family: 'PT Serif', serif;
+    padding: 12px 0;
+}
+
+.contact form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+
+#emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width:24px;
+    margin: 3px 0;
+    
+}
+
+.Description{
+    background-color: wheat;
+   
+    display: flex;
+    flex-direction: column;
+    
+    align-content: center;
+    padding: 75px;
+    width: fit-content;
+}
+.p{
+    font-size: 35px;
+    margin-top: 15px;
+    font-family: 'Source Serif Pro', serif;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    justify-content: flex-start
+}
+.sec image {
+   
+        box-sizing: border-box;
+        
+}
+      
+      .image img{
+        float: left;
+        padding:7%;
+        
+    }
+    .image2 img {
+        
+        padding:20%;
+        
+    }
+    .cert image{
+        box-sizing: border-box;
+    }
+      .cert img{
+        float: left;
+        padding:7%; 
+      }
+      .con{
+        background-color: rgb(199, 112, 112);
+      }
